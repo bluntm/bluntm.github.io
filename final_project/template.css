@@ -1,0 +1,152 @@
+/* Template Style Sheet */
+
+/* ~~ Header ~~ */
+html,
+body {
+  margin: 0;
+  background-color: gray;
+}
+.logo {
+  float: left;
+  display: block;
+  height: 128px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar {
+  float: left;
+  display: block;
+  background-color: white;
+  height: 128px;
+  width: 100%;
+}
+
+.navigation-bar ul {
+  float:left;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  height: 128px;
+}
+
+.navigation-bar li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+.navigation-bar li a {
+  float: left;
+  margin: 0;
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  line-height: 128px;
+  padding: 0 .5em;
+}
+@media screen and (max-width: 750px){
+  .navigation-bar ul {
+    /*display: none;*/
+    float: left;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+  }
+  .navigation-bar li {
+    float: left;
+
+
+  }
+  .navigation-bar li a {
+    font-size: 16px;
+  }
+
+#extras ul {
+  float: left;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+#extras ul li {
+  float: left;
+}
+#extras ul li a {
+  background-color: white;
+  margin: 0;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 128px;
+  padding: 0 .5em;
+}
+}
+/*
+#wrapper {
+  float: left;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 128px;
+}*/
+
+/* ~~ Content ~~ */
+div.content {
+  display: block;
+  float: left;
+  margin: 0;
+  border-top: 4px solid black;
+  width: 100%;
+}
+#main {
+  float:left;
+}
+
+/* ~~ Footer ~~ */
+ul.footer {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  height: 4em;
+  background: darkgray;
+  list-style-type: none;
+  border-top: 4px solid black;
+  text-align: center;
+}
+
+ul.footer li {
+  margin: 0;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+ul.footer li a {
+  font-size: 200%;
+  text-align: center;
+	text-decoration: none;
+	padding: 0 .5em 0 0;
+	margin: 0;
+  background-color: darkgray;
+	color: black;
+}
+
+@media screen and (max-width: 650px) {
+  ul.footer {
+    display:none;
+  }
+}
+
+#footer {
+  clear:left;
+}

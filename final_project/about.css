@@ -1,0 +1,114 @@
+body{
+    background: rgb(170,255,174); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(170,255,174,1) 0%, rgba(255,250,123,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(170,255,174,1) 0%,rgba(255,250,123,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(170,255,174,1) 0%,rgba(255,250,123,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaffae', endColorstr='#fffa7b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    
+    .logo{
+        position: absolute;
+        max-width: 20%;
+        margin-bottom:8%;
+    }
+  
+    .nothing{
+        color:rgba(170,255,174,1); 
+        font-size:0.001%;
+    }
+    .red{
+        padding-top:4%;
+        padding-bottom:4%;
+        background-color:#FFDE9C;
+        width:80%;
+        box-shadow: 6px 6px 5px  #666;
+        border-radius:1em;
+    
+        }
+    
+    .navigation {
+        margin-top:2%;
+        background-color:#C3F8FF;;
+        padding:4%;
+        border-bottom:1px solid black;
+        margin-bottom:5%;
+           
+    }
+    a {
+        max-width: 100%;
+        text-decoration: none;
+        padding-right:4%;
+        padding-left:4%;
+        float: right;
+        font-size: 24px;
+        font-family: 'Playfair Display SC', serif;
+        border-right: 1px solid black;
+        color:black;
+    
+    }
+    a:hover{
+        font-size:25px;
+    }
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom:3%;
+    overflow: hidden;
+    background-color:gray;
+}
+li{
+    float: left;
+}
+
+
+ li a {
+    display: block; 
+    text-align: center;
+    text-decoration:none;
+    color:#AAFFAE;
+    padding:10px 10px;
+    font-size:15px;
+}
+li a:hover{
+    font-size:15px;
+}
+h1 {
+    margin-top:15%;
+    margin-bottom:20%;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size:50px;
+}
+.background{
+    opacity: .50;
+    z-index: -10;
+    position: absolute;
+
+}
+h3{
+    margin-top:5%;
+    margin-right:10%;
+    margin-left:10%;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    border-bottom: 1px solid black;
+    margin-bottom:10%;
+
+}
+h2{
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+ 
+}
+.text {
+    font-family: 'Forum', cursive;
+
+}
+p{
+    margin-top:2%;
+    font-size:19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    clear: both;
+}
